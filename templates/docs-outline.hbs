@@ -1,0 +1,9 @@
+sidebars:
+    - docs Sidebar:
+        items:
+{{#each products as |product|}}
+{{#with product}}
+            - {{{label}}}:
+                href: "./{{{path}}}"
+{{/with}}
+{{/each}}

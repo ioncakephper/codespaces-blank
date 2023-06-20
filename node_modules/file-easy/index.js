@@ -1,0 +1,47 @@
+const path = require('path')
+const fs = require('fs')
+
+
+/**
+ * Append specified extension if needed.
+ *
+ * @param {string} filename the filename to check for an existing extension.
+ * @param {string} extension the extension to append if filename has no extension. It should start with a dot (e.g. `.txt`)
+ * @returns {string} filename with either existing or specified extension
+ */
+function setDefaultExtension(filename, extension) {
+    return (path.extname(filename)) ? filename : filename + extension;
+}
+
+/**
+ * Save content in a file using utf8 format.
+ *
+ * @param {string} filename The filename to create. It can also include a path ending with the filename. Path will be created if not exists.
+ * @param {string} content The content to place in the file.
+ */
+function saveDocument(filename, content) {
+    let d = path.dirname(filename);
+    if (!fs.existsSync(d)) {
+        fs.mkdirSync(d, { 'recursive': true })
+    }
+    fs.writeFileSync(filename, content, 'utf8')
+}
+
+/**
+ * Convert a string into an identifier.
+ *
+ * @param {string} s The string to convert by replacing special characters with dash (-)
+ * @returns {string} The identifier string
+ */
+function slug(s) {
+    let regex = /[^a-zA-Z0-9\-]+/g;
+    s = s.trim().toLowerCase().replace(regex, '-')
+    s = s.replace(/^\-+/, '').replace(/\-+$/g, '')
+    return s;
+}
+
+module.exports = {
+    slug: slug,
+    setDefaultExtension: setDefaultExtension,
+    saveDocument: saveDocument
+}

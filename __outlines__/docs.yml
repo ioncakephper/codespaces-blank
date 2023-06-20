@@ -1,0 +1,8 @@
+sidebars:
+    - docsSidebar:
+        - Getting started:
+            href: Getting started
+        - Account and profile:
+            href: Account and Profile
+        - Codespaces:
+            href: Codespaces
