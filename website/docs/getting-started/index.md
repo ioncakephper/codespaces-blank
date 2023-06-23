@@ -1,6 +1,6 @@
 ---
-sidebar_label: Getting started
-slug: getting-started/
+sidebar_label: Getting Started
+id: index
 ---
 
 # Getting started

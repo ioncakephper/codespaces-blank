@@ -6,6 +6,7 @@ const {
 } = require('../lib');
 const { saveDocument} = require('file-easy');
 const { globSync } = require('glob')
+const {isEmpty} = require("lodash")
 
 let { name, version, description } = require("../package.json");
 
@@ -15,6 +16,7 @@ program
     .version(version)
 
     .command("build", { isDefault: true })
+    .argument('[inputPattern...]', 'pattern for outline file', [])
     .description("build documentation files and sidebar structure file for Docusaurus-based sites")
     .option('-c, --config <filename>', 'name of the configuration file', `${name}.json`)
     .option('-d, --docs <path>', 'path to documentation files root folder', 'docs')
@@ -23,7 +25,7 @@ program
     .option('-v, --verbose', 'log progress messages')
 
 
-    .action((options) => {
+    .action((inputPattern, options) => {
 
         let defaultOptions = {
             files: [
@@ -45,8 +47,10 @@ program
                 files.push(f)
             })
         })
+        files = [...files, ...inputPattern];
+        files = files.filter(p => !isEmpty(p.trim()));
     
-        let docSidebarDefs = [];
+        let docSidebarDefs = []; 
         for (const outlineFilename of files) {
             let localSidebarDefs = loadOutlineSidebars(outlineFilename)
             localSidebarDefs.forEach(item => {
