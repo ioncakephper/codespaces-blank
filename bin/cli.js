@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 /*
  * Created on Sun Jun 25 2023
  *

@@ -1,10 +1,10 @@
 {
   "name": "sk3",
-  "version": "1.0.0",
+  "version": "1.23.0",
   "description": "build documentation files and sidebar structure file for Docusaurus-powered sites",
   "main": "index.js",
   "bin": {
-    "skelo": "./bin/cli.js"
+    "sk3": "./bin/cli.js"
   },
   "scripts": {
     "test": "jest --watchAll",
