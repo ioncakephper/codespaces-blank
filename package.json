@@ -7,7 +7,7 @@
     "sk3": "./bin/cli.js"
   },
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest",
     "build-doc": "node ./bin/cli.js skeleton.outline.yml -d ./website/docs -s ./website/sidebars.js --verbose"
   },
   "author": "shytiger@yahoo.com Ion Gireada",
