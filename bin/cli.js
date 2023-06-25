@@ -91,6 +91,6 @@ program
     });
 
 // program.parse("node skelo help build".split(" "))
-program.parse("node skelo skeleton.outline.yml -d ./website/docs -s ./website/sidebars.js".split(" "))
-// program.parse() 
+// program.parse("node skelo skeleton.outline.yml -d ./website/docs -s ./website/sidebars.js".split(" "))
+program.parse() 
  
