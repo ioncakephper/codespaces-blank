@@ -64,23 +64,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Skelosaurus',
+        title: 'My Site',
         logo: {
-          alt: 'Skelosaurus Logo',
+          alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'updateSidebar',
-            position: 'left',
-            label: 'Updates',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

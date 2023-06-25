@@ -1,0 +1,40 @@
+sidebars:
+  - updateSidebar:
+      path: updates
+      order:
+        by: id
+        direction: desc
+      items:
+          - April 2023:
+              id: v23-4
+              title: April 2023 (version 23.4)
+              headings:
+                  - Last was first
+                  - First was last
+          - March 2023:
+              id: v23-3
+              title: March 2023 (version 23.3)
+
+  - docSidebar:
+      - Overview
+      - Getting started:
+          order:
+            by: label
+          items:
+            - Installation:
+                headings:
+                  - Install
+                  - Check
+            - Usage:
+                # frozen: exists
+                order:
+                  by: label
+                  direction: desc
+                headings:
+                  - Run skelo CLI from local installation
+                  - Run skelo CLI remotely
+
+            - Outline:
+                # frozen: exists
+                brief: Quick documentation outline overview
+
