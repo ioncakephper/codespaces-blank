@@ -4,7 +4,8 @@
   "description": "build documentation files and sidebar structure file for Docusaurus-powered sites",
   "main": "index.js",
   "bin": {
-    "sk3": "./bin/cli.js"
+    "sk3": "./bin/cli.js",
+    "create-skeleton": "./bin/cli.js"
   },
   "scripts": {
     "test": "jest",
