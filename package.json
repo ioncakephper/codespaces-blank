@@ -1,5 +1,5 @@
 {
-  "name": "sk3",
+  "name": "create-docusaurus-skeleton",
   "version": "1.24.6",
   "description": "build documentation files and sidebar structure file for Docusaurus-powered sites",
   "main": "index.js",
