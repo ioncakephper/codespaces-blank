@@ -83,6 +83,8 @@ program
             })
         }
 
+        /* This code block is iterating over each sidebar definition in the `docSidebarDefs` array and creating
+        a sidebar object for each definition. */
         let allSidebars = {};
         for (const sidebarDef of docSidebarDefs) {
 
