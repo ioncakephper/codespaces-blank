@@ -104,5 +104,5 @@ program
 
 // program.parse("node sk3 help build".split(" "))
 // program.parse("node sk3 ../docusaurus-projects/doc-sample/several-prods.outline.yml -d ./website/docs -s ./website/sidebars.js --verbose".split(" "))
-program.parse("node sk3 *.outline.yml __outlines__/**/*.yml --verbose".split(" "))
-// program.parse()
+// program.parse("node sk3 *.outline.yml __outlines__/**/*.yml --verbose".split(" "))
+program.parse()
