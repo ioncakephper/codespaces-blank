@@ -2,6 +2,7 @@ sidebars:
   - docSidebar:
       autoindex: true
       autofolder: true
+      autobrief: true
       items:
         - Overview:
             title: Skeleton Technical Documentation
@@ -38,6 +39,7 @@ sidebars:
               - items
               - autofolder
               - autoindex
+              - autobrief
               - index
               - hidden
               - frozen
@@ -49,11 +51,11 @@ sidebars:
               by: label
             items:
               - Github:
-                  frozen: exists
+                  # frozen: exists
               - Jest
               - Visual Studio Code
               - Visual Studio Code Updates:
-                  frozen: exists
+                  # frozen: exists
   - updateSidebar:
       path: updates
       order:
