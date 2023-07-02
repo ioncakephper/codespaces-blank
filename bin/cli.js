@@ -54,24 +54,29 @@ program
             ...loadConfigurationFile(options.config)
         }
         appLog(INFO, `Processed configuration file: ${options.config}`, options)
-        let files = []
-        options.files.forEach(pattern => {
+
+        
+
+        /* This code block is responsible for gathering the file patterns provided as command line arguments
+        or using the default file patterns from the options. It then uses the `globSync` function to find
+        all the files that match the patterns. The found files are stored in the `allFiles` array. */
+        let patterns = (!isEmpty(inputPattern) ? inputPattern : options.files);
+        let allFiles = []
+        patterns.forEach(pattern => {
             let localFiles = globSync(pattern);
             localFiles.forEach(f => {
-                files.push(f)
+                allFiles.push(f)
             })
-        })
-        files = [...files, ...inputPattern];
+        })        
+        allFiles = allFiles.filter(p => !isEmpty(p.trim()));
 
-        // Remove duplicated files patterns
-        let allFiles = files.filter(p => !isEmpty(p.trim()));
-        files = []
+        let files = []
         allFiles.forEach(item => {
             if (!files.includes(item)) {
                 files.push(item)
             }
         })
-        appLog(INFO, `Outline outline patterns: ${JSON.stringify(files, null, 4)}`, options)
+        appLog(INFO, `Outline outline names: ${JSON.stringify(files, null, 4)}`, options)
 
         let docSidebarDefs = [];
         for (const outlineFilename of files) {
@@ -97,6 +102,7 @@ program
 
     });
 
-// program.parse("node skelo help build".split(" "))
-// program.parse("node skelo skeleton.outline.yml -d ./website/docs -s ./website/sidebars.js".split(" "))
-program.parse()
+// program.parse("node sk3 help build".split(" "))
+// program.parse("node sk3 ../docusaurus-projects/doc-sample/several-prods.outline.yml -d ./website/docs -s ./website/sidebars.js --verbose".split(" "))
+program.parse("node sk3 *.outline.yml __outlines__/**/*.yml --verbose".split(" "))
+// program.parse()

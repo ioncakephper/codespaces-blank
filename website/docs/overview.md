@@ -2,5 +2,5 @@
 sidebar_label: Overview
 ---
 
-# Overview
+# Skeleton Technical Documentation
 

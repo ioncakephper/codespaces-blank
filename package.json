@@ -10,7 +10,7 @@
     "test": "jest",
     "build-doc": "node ./bin/cli.js skeleton.outline.yml -d ./website/docs -s ./website/sidebars.js --verbose"
   },
-  "author": "shytiger@yahoo.com Ion Gireada",
+  "author": "Ion Gireada <shytiger@yahoo.com>",
   "license": "ISC",
   "dependencies": {
     "commander": "^11.0.0",

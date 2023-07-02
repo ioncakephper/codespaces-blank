@@ -1,4 +1,68 @@
 sidebars:
+  - docSidebar:
+      - Overview:
+          title: Skeleton Technical Documentation
+      - "My selection":
+          isgroup: true
+          items:
+            - First item
+            - Second item
+            - Third item
+      - Getting started:
+          autoindex: true
+          # order:
+          #   by: label
+          items:
+            - Installation:
+                headings:
+                  - Install
+                  - Check
+            - Usage:
+                # frozen: exists
+                order:
+                  by: label
+                  direction: desc
+                headings:
+                  - Run skelo CLI from local installation
+                  - Run skelo CLI remotely
+
+            - Documentation Outline:
+                frozen: exists
+                id: outline
+                brief: Quick documentation outline overview
+                title: Build documentation skeleton from an outline
+                
+      - Outline properties:
+          # autoindex: true
+          order:
+            by: label
+          headings:
+            - title
+            - label
+            - brief
+            - headings
+            - id
+            - items
+            - autofolder
+            - autoindex
+            - index
+            - hidden
+            - frozen
+            - path
+            - order
+
+      - Use cases:
+          autofolder: true
+          # index: index
+          autoindex: true
+          order:
+            by: label
+          items:
+            - Github
+            - Jest
+            - Visual Studio Code
+            - Visual Studio Code Updates:
+                frozen: exists
   - updateSidebar:
       path: updates
       order:
@@ -14,27 +78,4 @@ sidebars:
           - March 2023:
               id: v23-3
               title: March 2023 (version 23.3)
-
-  - docSidebar:
-      - Overview
-      - Getting started:
-          order:
-            by: label
-          items:
-            - Installation:
-                headings:
-                  - Install
-                  - Check
-            - Usage:
-                # frozen: exists
-                order:
-                  by: label
-                  direction: desc
-                headings:
-                  - Run skelo CLI from local installation
-                  - Run skelo CLI remotely
-
-            - Outline:
-                # frozen: exists
-                brief: Quick documentation outline overview
 
