@@ -1,60 +1,59 @@
 sidebars:
   - docSidebar:
-      - Overview:
-          title: Skeleton Technical Documentation
-      - Getting started:
-          autoindex: true
-          items:
-            - Installation:
-                headings:
-                  - Install
-                  - Check
-            - Usage:
-                # frozen: exists
-                order:
-                  by: label
-                  direction: desc
-                headings:
-                  - Run skelo CLI from local installation
-                  - Run skelo CLI remotely
+      autoindex: true
+      autofolder: true
+      items:
+        - Overview:
+            title: Skeleton Technical Documentation
+        - Getting started:
+            items:
+              - Installation:
+                  headings:
+                    - Install
+                    - Check
+              - Usage:
+                  # frozen: exists
+                  order:
+                    by: label
+                    direction: desc
+                  headings:
+                    - Run skelo CLI from local installation
+                    - Run skelo CLI remotely
 
-            - Documentation Outline:
-                frozen: exists
-                id: outline
-                brief: Quick documentation outline overview
-                title: Build documentation skeleton from an outline
+              - Documentation Outline:
+                  frozen: exists
+                  id: outline
+                  brief: Quick documentation outline overview
+                  title: Build documentation skeleton from an outline
 
-      - Outline properties:
-          # autoindex: true
-          order:
-            by: label
-          headings:
-            - title
-            - label
-            - brief
-            - headings
-            - id
-            - items
-            - autofolder
-            - autoindex
-            - index
-            - hidden
-            - frozen
-            - path
-            - order
+        - Outline properties:
+            order:
+              by: label
+            headings:
+              - title
+              - label
+              - brief
+              - headings
+              - id
+              - items
+              - autofolder
+              - autoindex
+              - index
+              - hidden
+              - frozen
+              - path
+              - order
 
-      - Use cases:
-          autofolder: true
-          # index: index
-          autoindex: true
-          order:
-            by: label
-          items:
-            - Github
-            - Jest
-            - Visual Studio Code
-            - Visual Studio Code Updates:
-                frozen: exists
+        - Use cases:
+            order:
+              by: label
+            items:
+              - Github:
+                  frozen: exists
+              - Jest
+              - Visual Studio Code
+              - Visual Studio Code Updates:
+                  frozen: exists
   - updateSidebar:
       path: updates
       order:

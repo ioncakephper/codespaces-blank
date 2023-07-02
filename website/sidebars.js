@@ -31,68 +31,40 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-    "docsSidebar": [
-        {
-            "type": "category",
-            "label": "My group items",
-            "items": [
-                "first-item-in-group",
-                "second-item-in-group"
-            ]
-        },
-        "index",
-        {
-            "type": "category",
-            "label": "User Guides",
-            "items": [
-                "banking-product-factory",
-                {
-                    "type": "link",
-                    "label": "Innovation Studio",
-                    "href": "studio/22-1/user-guide/content"
-                },
-                "insurance-product-factory"
-            ]
-        }
-    ],
-    "innovationStudioSidebar": [
-        {
-            "type": "link",
-            "label": "All Products",
-            "href": "/docs/"
-        },
-        "studio/22-1/user-guide/content/index",
+    "docSidebar": [
+        "overview",
         {
             "type": "category",
             "label": "Getting started",
             "items": [
-                "studio/22-1/user-guide/content/getting-started/installation",
-                "studio/22-1/user-guide/content/getting-started/basic-concepts"
-            ]
-        },
-        {
-            "type": "category",
-            "label": "Evolutive Data Core",
-            "items": [
-                "studio/22-1/user-guide/content/evolutive-data-core/data-model-designer",
-                "studio/22-1/user-guide/content/evolutive-data-core/data-model-explorer",
-                "studio/22-1/user-guide/content/evolutive-data-core/data-import-templates",
-                "studio/22-1/user-guide/content/evolutive-data-core/data-governance",
-                "studio/22-1/user-guide/content/evolutive-data-core/data-pipes"
+                "getting-started/installation",
+                "getting-started/usage",
+                "getting-started/outline"
             ],
             "link": {
                 "type": "generated-index",
-                "title": "Evolutive Data Core"
+                "title": "Getting started"
             }
         },
-        "studio/22-1/user-guide/content/digital-experience",
-        "studio/22-1/user-guide/content/automation-processors"
+        "outline-properties",
+        {
+            "type": "category",
+            "label": "Use cases",
+            "items": [
+                "use-cases/github",
+                "use-cases/jest",
+                "use-cases/visual-studio-code",
+                "use-cases/visual-studio-code-updates"
+            ],
+            "link": {
+                "type": "generated-index",
+                "title": "Use cases"
+            }
+        }
     ],
-    "bankingProductFactorySidebar": [
-        "ap/banking-product-factory/4-3/user-guide/content/index"
-    ],
-    "insuranceProductFactorySidebar": [
-        "ap/insurance-product-factory/7-3/user-guide/content/index"
+    "updateSidebar": [
+        "updates/v23-4",
+        "updates/v23-3"
     ]
 }
 
