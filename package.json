@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": {
     "sk3": "./bin/cli.js",
-    "create-skeleton": "./bin/cli.js"
+    "create-docusaurus-skeleton": "./bin/cli.js"
   },
   "scripts": {
     "test": "jest",
