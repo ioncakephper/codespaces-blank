@@ -2,16 +2,8 @@ sidebars:
   - docSidebar:
       - Overview:
           title: Skeleton Technical Documentation
-      - "My selection":
-          isgroup: true
-          items:
-            - First item
-            - Second item
-            - Third item
       - Getting started:
           autoindex: true
-          # order:
-          #   by: label
           items:
             - Installation:
                 headings:
@@ -31,7 +23,7 @@ sidebars:
                 id: outline
                 brief: Quick documentation outline overview
                 title: Build documentation skeleton from an outline
-                
+
       - Outline properties:
           # autoindex: true
           order:
@@ -78,4 +70,3 @@ sidebars:
           - March 2023:
               id: v23-3
               title: March 2023 (version 23.3)
-

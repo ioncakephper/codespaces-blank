@@ -37,7 +37,6 @@ program
     .option('-t, --templates <path>', 'path to topic and heading templates', `${path.join(__dirname, '..', 'templates')}`)
     .option('-v, --verbose', 'log progress messages')
 
-
     .action((inputPattern, options) => {
 
         let defaultOptions = {
@@ -55,8 +54,6 @@ program
         }
         appLog(INFO, `Processed configuration file: ${options.config}`, options)
 
-        
-
         /* This code block is responsible for gathering the file patterns provided as command line arguments
         or using the default file patterns from the options. It then uses the `globSync` function to find
         all the files that match the patterns. The found files are stored in the `allFiles` array. */
@@ -67,7 +64,7 @@ program
             localFiles.forEach(f => {
                 allFiles.push(f)
             })
-        })        
+        })
         allFiles = allFiles.filter(p => !isEmpty(p.trim()));
 
         let files = []
@@ -102,7 +99,4 @@ program
 
     });
 
-// program.parse("node sk3 help build".split(" "))
-// program.parse("node sk3 ../docusaurus-projects/doc-sample/several-prods.outline.yml -d ./website/docs -s ./website/sidebars.js --verbose".split(" "))
-// program.parse("node sk3 *.outline.yml __outlines__/**/*.yml --verbose".split(" "))
 program.parse()
