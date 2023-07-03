@@ -1,4 +1,4 @@
-# codespaces-blank
+# create-docusaurus-skeleton
 
 ## Build Skelosaurus skeleton documentation
 
