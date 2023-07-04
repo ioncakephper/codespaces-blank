@@ -2,12 +2,12 @@
 
 ## How to build documentation skeleton
 
-1. Create project folder and `cd` to id.
+1. Create project folder and `cd`.
 
-```shell
-mkdir my-project
-cd my-project
-```
+   ```shell
+    mkdir my-project
+    cd my-project
+   ```
 
 2. Create documentation outline file: `my-project.outline.yml`
 
