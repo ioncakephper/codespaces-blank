@@ -11,42 +11,43 @@
 
 2. Create documentation outline file: `my-project.outline.yml`
 
-```yml
-sidebars:
-    - tutorialSidebar:
-        autobrief: true
-        items:
-            - Overview:
-                headings:
-                    - Features
-                    - "What's new"
-                    - Our customers:
-                        - Customer C
-                        - Customer A
-                        - Customer B
-            - Getting started:
-                - Installation
-                - Usage
-                - Quick demo
-```
+    ```yml
+    sidebars:
+        - tutorialSidebar:
+            autobrief: true
+            items:
+                - Overview:
+                    headings:
+                        - Features
+                        - "What's new"
+                        - Our customers:
+                            - Customer C
+                            - Customer A
+                            - Customer B
+                - Getting started:
+                    - Installation
+                    - Usage
+                    - Quick demo
+    ```
 
 3. Create Docusaurus site in `website` folder
 
-```shell
-npx create-docusaurus@latest website classic
-```
+    ```shell
+    npx create-docusaurus@latest website classic
+    ```
 
 4. Build documentation skeleton with `create-docusaurus-skeleton`
 
-```shell
-cd website
-npx create-docusaurus-skeleton ../my-project.outline.yml --verbose
-```
+    ```shell
+    cd website
+    npx create-docusaurus-skeleton ../my-project.outline.yml --verbose
+    ```
+
 5. Run Docusaurus development server and open the browset at https://localhost:3000
 
-```shell
-npm start
-```
+    ```shell
+    npm start
+    ```
 
 ## Sidebars.js
 
@@ -66,81 +67,80 @@ module.exports = sidebars;
 
 * `website/docs/overview.md`
 
-```md
----
-sidebar_label: Overview
----
+    ```md
+    ---
+    sidebar_label: Overview
+    ---
 
-# Overview
+    # Overview
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-## Features
+    ## Features
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-## What's new
+    ## What's new
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-## Our customers
+    ## Our customers
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-### Company C
+    ### Company C
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-### Company A
+    ### Company A
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-### Company B
+    ### Company B
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-```
+    ```
 
 * `website/docs/installation.md`
 
-```md
----
-sidebar_label: Installation
----
+    ```md
+    ---
+    sidebar_label: Installation
+    ---
 
-# Installation
+    # Installation
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-```
-
+    ```
 
 * `website/docs/usage.md`
 
-```md
----
-sidebar_label: Usage
----
+    ```md
+    ---
+    sidebar_label: Usage
+    ---
 
-# Usage
+    # Usage
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-```
+    ```
 
 
 * `website/docs/quick-demo.md`
 
-```md
----
-sidebar_label: Quick demo
----
+    ```md
+    ---
+    sidebar_label: Quick demo
+    ---
 
-# Quick demo
+    # Quick demo
 
-Randomly generated text appears here...
+    Randomly generated text appears here...
 
-```
+    ```
 
 ## Outline properties
 
@@ -167,5 +167,4 @@ Randomly generated text appears here...
 
 1. `skeleton.outline.yml` has the documentation outline.
 2. Run `npm run build-doc`
-
 
