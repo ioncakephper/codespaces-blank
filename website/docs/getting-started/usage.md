@@ -4,14 +4,14 @@ sidebar_label: Usage
 
 # Usage
 
-Do reprehenderit velit laboris ut minim cupidatat officia nostrud. Aliqua est fugiat fugiat incididunt mollit tempor irure sint. Deserunt eu consequat velit elit deserunt eu eu dolor aute labore et exercitation aute. Adipisicing veniam officia aliqua ipsum. Nulla adipisicing consectetur proident amet quis fugiat eiusmod fugiat tempor.
+Quis sunt fugiat consectetur aute. Sunt deserunt nostrud qui in cillum elit ipsum cupidatat laborum. Consequat nulla ipsum eu. Consectetur fugiat ad veniam pariatur. Quis nostrud veniam aliquip dolor culpa dolor occaecat excepteur est.
 
 ## Run skelo CLI remotely
 
-Sint ex adipisicing qui veniam excepteur occaecat. In ex reprehenderit ex exercitation sunt dolore adipisicing duis sit exercitation aute mollit ad. Non esse incididunt irure nisi incididunt culpa deserunt aliqua duis magna mollit ad ad magna non. Eiusmod pariatur non commodo ad velit voluptate quis mollit esse consectetur quis dolor fugiat deserunt consequat. Cillum aliqua ut laboris elit ad aliquip aliqua dolore adipisicing enim occaecat duis cupidatat non.
+Sint non ullamco ut laboris qui eu pariatur. Ut sint tempor exercitation elit id eiusmod amet do velit. Deserunt aute do aliquip qui qui elit eiusmod. Voluptate irure cillum qui sit exercitation. Do reprehenderit dolore sit pariatur eu aute aliqua incididunt sint ut.
 
 ## Run skelo CLI from local installation
 
-Exercitation nostrud ipsum non incididunt nisi est dolore adipisicing laborum do consectetur sunt minim sit. Deserunt nisi id irure. Commodo reprehenderit duis voluptate cillum do aute enim non ipsum aliqua incididunt. Nostrud ea minim culpa incididunt culpa sint mollit. Et dolor aute proident dolore pariatur.
+Aliqua pariatur ullamco in deserunt id culpa duis. Veniam aliqua anim sunt aute eiusmod consequat. Sit fugiat nostrud et velit ea. Occaecat excepteur amet nulla incididunt eiusmod exercitation sit velit. Ad aute excepteur laboris deserunt quis ea aliquip adipisicing laboris cupidatat.
 
 

@@ -4,5 +4,5 @@ sidebar_label: Overview
 
 # Skeleton Technical Documentation
 
-Magna culpa ullamco do magna ad aute pariatur laboris voluptate cillum fugiat amet ea pariatur. Aute nisi incididunt et nostrud do. Quis voluptate id sunt incididunt anim. Sunt mollit et mollit commodo commodo eiusmod commodo est ad elit minim fugiat id. Enim consequat amet esse consectetur minim non aliquip.
+Commodo esse ipsum esse dolore. In amet consectetur non magna duis incididunt enim duis commodo amet enim dolor non ut anim. Laborum aute eu dolor officia incididunt deserunt elit exercitation fugiat cillum nulla ipsum aliqua. Et laboris aliqua nulla eu minim. Aute ullamco ea labore aliqua eu sit ipsum incididunt esse laboris ut incididunt anim dolor sunt.
 

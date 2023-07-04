@@ -22,10 +22,19 @@ sidebars:
                     - Run skelo CLI remotely
 
               - Documentation Outline:
-                  frozen: exists
-                  id: outline
                   brief: Quick documentation outline overview
                   title: Build documentation skeleton from an outline
+                  headings:
+                    - "Single outline file":
+                        - Outline file:
+                            note: code block in yaml with a single sidebar, describe title, id, brief, and headings. Include a category
+                        - Create skeleton:
+                            note: code block with npx command, show sidebars.js file
+                        - Enhanced skeleton:
+                            note: on the same outline file, add autoindex and autobrief. Make sure you have two categories so you can demonstrate how autobrief at the top in sidebar trickles down on each category.
+                    - "Single outline file, multiple sidebars"
+                    - "Multiple outline files"
+                    - "Multiple outline files each with multiple sidebars"
 
         - Outline properties:
             order:

@@ -39,7 +39,7 @@ const sidebars = {
             "items": [
                 "getting-started/installation",
                 "getting-started/usage",
-                "getting-started/outline"
+                "getting-started/documentation-outline"
             ],
             "link": {
                 "type": "generated-index",

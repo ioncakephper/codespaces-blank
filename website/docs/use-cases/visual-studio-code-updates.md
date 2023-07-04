@@ -4,5 +4,5 @@ sidebar_label: Visual Studio Code Updates
 
 # Visual Studio Code Updates
 
-Excepteur aliquip aliqua voluptate mollit ullamco et officia velit dolore reprehenderit do. Nulla et do officia veniam commodo ea sunt qui. Culpa ut excepteur non ex amet qui consequat nisi mollit culpa eiusmod dolor pariatur. Anim magna velit in nulla laborum commodo fugiat ipsum voluptate voluptate incididunt nostrud. Adipisicing Lorem nulla in mollit esse pariatur nulla veniam consequat occaecat veniam minim reprehenderit dolore.
+Aliquip nostrud proident exercitation eu tempor nulla nostrud in pariatur amet cupidatat sit nostrud est mollit. Sit laboris officia occaecat mollit ipsum officia quis et. Sunt sint ullamco nisi consectetur velit non ipsum id laborum qui tempor labore sit nulla. Aute est ex mollit qui. Nostrud excepteur aliquip aliqua dolore labore anim velit non sit officia officia sint enim.
 
