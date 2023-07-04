@@ -39,7 +39,7 @@
 4. Build documentation skeleton with `create-docusaurus-skeleton`
 
     ```shell
-    npx create-docusaurus-skeleton ../my-project.outline.yml --verbose
+    npx create-docusaurus-skeleton my-project.outline.yml -d ./website/docs -s ./website/sidebars.js --verbose
     ```
 
 5. Run Docusaurus development server and open the browser at <https://localhost:3000>
