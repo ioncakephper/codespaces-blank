@@ -9,7 +9,13 @@
     cd my-project
    ```
 
-2. Create documentation outline file: `my-project.outline.yml`
+2. Create Docusaurus site in `website` folder
+
+    ```shell
+    npx create-docusaurus@latest website classic
+    ```
+
+3. Create documentation outline file: `my-project.outline.yml`
 
     ```yml
     sidebars:
@@ -30,22 +36,16 @@
                     - Quick demo
     ```
 
-3. Create Docusaurus site in `website` folder
-
-    ```shell
-    npx create-docusaurus@latest website classic
-    ```
-
 4. Build documentation skeleton with `create-docusaurus-skeleton`
 
     ```shell
-    cd website
     npx create-docusaurus-skeleton ../my-project.outline.yml --verbose
     ```
 
-5. Run Docusaurus development server and open the browset at https://localhost:3000
+5. Run Docusaurus development server and open the browser at <https://localhost:3000>
 
     ```shell
+    cd website
     npm start
     ```
 
@@ -128,7 +128,6 @@ module.exports = sidebars;
 
     ```
 
-
 * `website/docs/quick-demo.md`
 
     ```md
@@ -146,8 +145,8 @@ module.exports = sidebars;
 
 | Name | Type | Description | Default
 |------|------|-------------|--------
-| sidebar | Array<string\|object> | Array of sidebar definitions | 
-| label | string | Text to show in sidebar | 
+| sidebar | Array<string\|object> | Array of sidebar definitions |
+| label | string | Text to show in sidebar |
 | path  | string | path where topic is generated. The path is relative to parent item's path. The top default parent path is `docs`
 | id | string | topic basename | slugified value of label
 | slug | string | path to associate to item |
@@ -160,11 +159,10 @@ module.exports = sidebars;
 | autoindex | boolean | | false
 | autobrief | boolean | | false
 | index | | |
-| brief | string | | 
+| brief | string | |
 | title | string | | value of label
 
 ## Build Skelosaurus skeleton documentation
 
 1. `skeleton.outline.yml` has the documentation outline.
 2. Run `npm run build-doc`
-
