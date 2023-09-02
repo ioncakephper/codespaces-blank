@@ -4,8 +4,6 @@ build documentation files and sidebar structure file for Docusaurus-powered site
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) ![npm](https://img.shields.io/npm/v/create-docusaurus-skeleton?labelColor=green) ![GitHub contributors](https://img.shields.io/github/contributors/ioncakephper/codespaces-blank)
 
-
-
 ## How to build documentation skeleton
 
 1. Create project folder and `cd`.
